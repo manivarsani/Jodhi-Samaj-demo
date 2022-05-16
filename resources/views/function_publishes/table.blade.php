@@ -4,8 +4,8 @@
             <tr>
                 <th>Name</th>
         <th>Address</th>
-        <th>Startingdate</th>
-        <th>Endingdate</th>
+        <th>Starting Date</th>
+        <th>Ending Date</th>
                 <th colspan="3">Action</th>
             </tr>
         </thead>

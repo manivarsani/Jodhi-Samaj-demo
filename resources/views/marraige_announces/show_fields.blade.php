@@ -6,13 +6,13 @@
 
 <!-- Startingdate Field -->
 <div class="col-sm-12">
-    {!! Form::label('startingdate', 'Startingdate:') !!}
+    {!! Form::label('startingdate', 'Starting Date:') !!}
     <p>{{ $marraigeAnnounce->startingdate }}</p>
 </div>
 
 <!-- Endingdate Field -->
 <div class="col-sm-12">
-    {!! Form::label('endingdate', 'Endingdate:') !!}
+    {!! Form::label('endingdate', 'Ending Date:') !!}
     <p>{{ $marraigeAnnounce->endingdate }}</p>
 </div>
 

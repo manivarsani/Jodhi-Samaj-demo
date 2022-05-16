@@ -2,10 +2,10 @@
     <table class="table" id="members-table">
         <thead>
             <tr>
-                <th>Firstname</th>
-        <th>Lastname</th>
+                <th>First Name</th>
+        <th>Last Name</th>
         <th>Village</th>
-        <th>Mobileno</th>
+        <th>Mobile Number</th>
         <th>Image</th>
                 <th colspan="3">Action</th>
             </tr>

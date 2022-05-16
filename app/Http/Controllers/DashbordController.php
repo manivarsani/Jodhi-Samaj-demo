@@ -6,6 +6,7 @@ use App\Http\Requests\CreateDashbordRequest;
 use App\Http\Requests\UpdateDashbordRequest;
 use App\Repositories\DashbordRepository;
 use App\Http\Controllers\AppBaseController;
+use App\Models\BookSocity;
 use App\Models\member;
 use Illuminate\Http\Request;
 use Flash;
@@ -30,10 +31,10 @@ class DashbordController extends AppBaseController
      */
     public function index(Request $request)
     {
-        $dashbords = $this->dashbordRepository->all();
+        $member = member::count();
+        $booking = BookSocity::count();
 
-        return view('dashbords.index')
-            ->with('dashbords', $dashbords);
+        return view('dashbords.index',compact('member','booking'));
     }
 
     /**
@@ -43,9 +44,8 @@ class DashbordController extends AppBaseController
      */
     public function create($id)
     {
-        // $member->where('column', 'matches')->count();
-        // $member = member::get('id');
-        return view('dashbords.create');
+        $count = member::count();
+        return view('dashbords.table', compact('count'));
     }
 
     /**

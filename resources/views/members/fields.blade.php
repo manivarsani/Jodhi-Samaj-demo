@@ -1,12 +1,12 @@
 <!-- Firstname Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('firstname', 'Firstname:') !!}
+    {!! Form::label('firstname', 'First Name:') !!}
     {!! Form::text('firstname', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Lastname Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('lastname', 'Lastname:') !!}
+    {!! Form::label('lastname', 'Last Name:') !!}
     {!! Form::text('lastname', null, ['class' => 'form-control']) !!}
 </div>
 
@@ -18,7 +18,7 @@
 
 <!-- Mobileno Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('mobileno', 'Mobileno:') !!}
+    {!! Form::label('mobileno', 'Mobile Number:') !!}
     {!! Form::number('mobileno', null, ['class' => 'form-control']) !!}
 </div>
 

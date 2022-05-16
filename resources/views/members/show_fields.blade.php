@@ -1,12 +1,12 @@
 <!-- Firstname Field -->
 <div class="col-sm-12">
-    {!! Form::label('firstname', 'Firstname:') !!}
+    {!! Form::label('firstname', 'First Name:') !!}
     <p>{{ $member->firstname }}</p>
 </div>
 
 <!-- Lastname Field -->
 <div class="col-sm-12">
-    {!! Form::label('lastname', 'Lastname:') !!}
+    {!! Form::label('lastname', 'Last Name:') !!}
     <p>{{ $member->lastname }}</p>
 </div>
 
@@ -18,7 +18,7 @@
 
 <!-- Mobileno Field -->
 <div class="col-sm-12">
-    {!! Form::label('mobileno', 'Mobileno:') !!}
+    {!! Form::label('mobileno', 'Mobile Number:') !!}
     <p>{{ $member->mobileno }}</p>
 </div>
 

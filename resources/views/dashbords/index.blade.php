@@ -1,41 +1,49 @@
 @extends('layouts.app')
 
 @section('content')
-    <!-- <section class="content-header">
+
+<section class="content">
+    <section class="content-header">
         <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6"> -->
-                    <h1>Dashbords</h1>
-                <!-- </div> -->
-                <!-- <div class="col-sm-6">
-                    <a class="btn btn-primary float-right"
-                       href="{{ route('dashbords.create') }}">
-                        Add New
-                    </a>
-                </div> -->
-            <!-- </div>
+
         </div>
-    </section> -->
+    </section>
 
-    <!-- <div class="content px-3">
+    <div class="content px-3">
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-indigo">
+                    <div class="inner">
+                        <h3>{{$member}}</h3>
 
-        @include('flash::message')
-
-        <div class="clearfix"></div> -->
-
-        <!-- <div class="card"> -->
-            <!-- <div class="card-body p-0"> -->
-                @include('dashbords.table')
-
-                <!-- <div class="card-footer clearfix float-right">
-                    <div class="float-right">
-                        
-                    </div> -->
-                <!-- </div>
+                        <h4>Members</h4>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-user-plus" aria-hidden="true"></i>
+                    </div>
+                    <a href="{{ route('members.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+                </div>
             </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-6">
+                <!-- small box -->
+                <div class="small-box bg-maroon">
+                    <div class="inner">
+                        <h3>{{$booking}}</h3>
 
-        </div> -->
-    <!-- </div> -->
+                        <h4>Booking</h4>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                    </div>
+                    <a href="{{ route('bookSocities.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+    </div>
+
+</section>
 
 @endsection
-

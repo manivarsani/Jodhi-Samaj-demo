@@ -1,4 +1,4 @@
-<!-- <div class="col-lg-3 col-6">
+<div class="col-lg-3 col-6">
 
 <div class="small-box bg-info">
 <div class="inner">
@@ -10,4 +10,4 @@
 </div>
 <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
 </div>
-</div> -->
+</div>

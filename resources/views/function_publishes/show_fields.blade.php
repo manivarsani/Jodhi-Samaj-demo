@@ -12,13 +12,13 @@
 
 <!-- Startingdate Field -->
 <div class="col-sm-12">
-    {!! Form::label('startingdate', 'Startingdate:') !!}
+    {!! Form::label('startingdate', 'Starting Date:') !!}
     <p>{{ $functionPublish->startingdate }}</p>
 </div>
 
 <!-- Endingdate Field -->
 <div class="col-sm-12">
-    {!! Form::label('endingdate', 'Endingdate:') !!}
+    {!! Form::label('endingdate', 'Ending Date:') !!}
     <p>{{ $functionPublish->endingdate }}</p>
 </div>
 

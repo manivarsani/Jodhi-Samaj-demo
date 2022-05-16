@@ -2,14 +2,10 @@
     <table class="table" id="bookSocities-table">
         <thead>
             <tr>
-                <th>Familyname</th>
+                <th>Family Name</th>
                 <th>funtion</th>
-                <!-- <th>marraige</th>
-                <th>Sagai</th>
-                <th>samajProgram</th>
-                <th>katha</th> -->
-                <th>StartingDate</th>
-                <th>EndingDate</th>
+                <th>Starting Date</th>
+                <th>Ending Date</th>
                 <th>TotalDayBook</th>
                 <th>Dish</th>
                 <th>Boull</th>

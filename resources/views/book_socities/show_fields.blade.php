@@ -1,6 +1,6 @@
 <!-- Familyname Field -->
 <div class="col-sm-12">
-    {!! Form::label('familyname', 'Familyname:') !!}
+    {!! Form::label('familyname', 'Family Name:') !!}
     <p>{{ $bookSocity->familyname }}</p>
 </div>
 <div class="col-sm-12">
@@ -10,13 +10,13 @@
 
 <!-- Startingdate Field -->
 <div class="col-sm-12">
-    {!! Form::label('startingdate', 'Startingdate:') !!}
+    {!! Form::label('startingdate', 'Starting Date:') !!}
     <p>{{ $bookSocity->startingdate }}</p>
 </div>
 
 <!-- Endingdate Field -->
 <div class="col-sm-12">
-    {!! Form::label('endingdate', 'Endingdate:') !!}
+    {!! Form::label('endingdate', 'Ending Date:') !!}
     <p>{{ $bookSocity->endingdate }}</p>
 </div>
 
@@ -27,19 +27,19 @@
 </div>
 
 <div class="col-sm-12">
-    {!! Form::label('dish', 'dish:') !!}
+    {!! Form::label('dish', 'Dish:') !!}
     <p>{{ $bookSocity->dish }}</p>
 </div>
 <div class="col-sm-12">
-    {!! Form::label('boull', 'boull:') !!}
+    {!! Form::label('boull', 'Boull:') !!}
     <p>{{ $bookSocity->boull }}</p>
 </div>
 <div class="col-sm-12">
-    {!! Form::label('glass', 'glass:') !!}
+    {!! Form::label('glass', 'Glass:') !!}
     <p>{{ $bookSocity->glass }}</p>
 </div>
 <div class="col-sm-12">
-    {!! Form::label('spun', 'spun:') !!}
+    {!! Form::label('spun', 'Spun:') !!}
     <p>{{ $bookSocity->spun }}</p>
 </div>
 

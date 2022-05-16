@@ -12,13 +12,13 @@
 
 <!-- Startingdate Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('startingdate', 'Startingdate:') !!}
+    {!! Form::label('startingdate', 'Starting Date:') !!}
     {!! Form::text('startingdate', null, ['class' => 'form-control','id'=>'startingdate']) !!}
 </div>
 
 <!-- Endingdate Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('endingdate', 'Endingdate:') !!}
+    {!! Form::label('endingdate', 'Ending Date:') !!}
     {!! Form::text('endingdate', null, ['class' => 'form-control','id'=>'endingdate']) !!}
 </div>
 

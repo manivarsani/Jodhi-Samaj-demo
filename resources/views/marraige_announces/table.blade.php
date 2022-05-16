@@ -3,8 +3,8 @@
         <thead>
             <tr>
                 <th>Name</th>
-        <th>Startingdate</th>
-        <th>Endingdate</th>
+        <th>Starting Date</th>
+        <th>Ending Date</th>
         <th>Timing</th>
                 <th colspan="3">Action</th>
             </tr>
