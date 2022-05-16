@@ -1,7 +1,12 @@
 <!-- Name Field -->
 <div class="col-sm-12">
-    {!! Form::label('name', 'Name:') !!}
-    <p>{{ $marraigeAnnounce->name }}</p>
+    {!! Form::label('girlsname', 'Girls Name:') !!}
+    <p>{{ $marraigeAnnounce->girlsname }}</p>
+</div>
+
+<div class="col-sm-12">
+    {!! Form::label('boysname', 'Boys Name:') !!}
+    <p>{{ $marraigeAnnounce->boysname }}</p>
 </div>
 
 <!-- Startingdate Field -->

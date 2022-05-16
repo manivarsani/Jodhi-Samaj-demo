@@ -32,6 +32,7 @@ class FunctionPublish extends Model
     public $fillable = [
         'name',
         'address',
+        'description',
         'startingdate',
         'endingdate'
     ];
@@ -44,6 +45,7 @@ class FunctionPublish extends Model
     protected $casts = [
         'name' => 'string',
         'address' => 'string',
+        'description' => 'string',
         'startingdate' => 'string',
         'endingdate' => 'string'
     ];

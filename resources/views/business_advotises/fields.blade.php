@@ -1,3 +1,13 @@
+<div class="form-group col-sm-6">
+    {!! Form::label('name', 'Name:') !!}
+    {!! Form::text('name', null, ['class' => 'form-control custom-select']) !!}
+</div>
+
+<div class="form-group col-sm-6">
+    {!! Form::label('description', 'Description:') !!}
+    {!! Form::text('description', null, ['class' => 'form-control custom-select']) !!}
+</div>
+
 <!-- Image Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('image', 'Image:') !!}

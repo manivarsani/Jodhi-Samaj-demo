@@ -16,7 +16,8 @@ class CreateMarraigeAnnouncesTable extends Migration
     {
         Schema::create('marraige_announces', function (Blueprint $table) {
             $table->id('id');
-            $table->string('name');
+            $table->string('girlsname');
+            $table->string('boysname');
             $table->string('startingdate');
             $table->string('endingdate');
             $table->string('timing');

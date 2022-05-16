@@ -2,8 +2,9 @@
     <table class="table" id="functionPublishes-table">
         <thead>
             <tr>
-                <th>Name</th>
+        <th>Name</th>
         <th>Address</th>
+        <th>Description</th>
         <th>Starting Date</th>
         <th>Ending Date</th>
                 <th colspan="3">Action</th>
@@ -14,6 +15,7 @@
             <tr>
                 <td>{{ $functionPublish->name }}</td>
             <td>{{ $functionPublish->address }}</td>
+            <td>{{ $functionPublish->description }}</td>
             <td>{{ $functionPublish->startingdate }}</td>
             <td>{{ $functionPublish->endingdate }}</td>
                 <td width="120">

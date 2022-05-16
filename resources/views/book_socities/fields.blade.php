@@ -20,16 +20,16 @@
 </div>
 
 <div class="form-group col-sm-6">
-    {!! Form::label('toals', 'Toals:') !!}
+    {!! Form::label('toals', 'Tools:') !!}
     <br>
-    {!! Form::label('dish', 'dish:') !!}
-    {!! Form::number('dish', null) !!}<br>
-    {!! Form::label('boull', 'boull:') !!}
-    {!! Form::number('boull', null) !!}<br>
-    {!! Form::label('glass', 'glass:') !!}
-    {!! Form::number('glass', null) !!}<br>
-    {!! Form::label('spun', 'spun:') !!}
-    {!! Form::number('spun', null) !!}
+    {!! Form::label('dish', 'Dish:') !!}
+    {!! Form::number('dish', null, ['class' => 'form-control custom-select']) !!}<br>
+    {!! Form::label('boull', 'Boull:') !!}
+    {!! Form::number('boull', null, ['class' => 'form-control custom-select']) !!}<br>
+    {!! Form::label('glass', 'Glass:') !!}
+    {!! Form::number('glass', null, ['class' => 'form-control custom-select']) !!}<br>
+    {!! Form::label('spun', 'Spun:') !!}
+    {!! Form::number('spun', null, ['class' => 'form-control custom-select']) !!}
 
 </div>
 

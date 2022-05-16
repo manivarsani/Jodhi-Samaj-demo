@@ -1,7 +1,12 @@
 <!-- Name Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('name', 'Name:') !!}
-    {!! Form::text('name', null, ['class' => 'form-control']) !!}
+    {!! Form::label('girlsname', 'Girls Name:') !!}
+    {!! Form::text('girlsname', null, ['class' => 'form-control']) !!}
+</div>
+
+<div class="form-group col-sm-6">
+    {!! Form::label('boysname', 'Boys Name:') !!}
+    {!! Form::text('boysname', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Startingdate Field -->

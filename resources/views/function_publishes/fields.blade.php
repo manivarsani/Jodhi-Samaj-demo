@@ -10,6 +10,11 @@
     {!! Form::text('address', null, ['class' => 'form-control']) !!}
 </div>
 
+<div class="form-group col-sm-6">
+    {!! Form::label('description', 'Description:') !!}
+    {!! Form::text('description', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Startingdate Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('startingdate', 'Starting Date:') !!}

@@ -30,7 +30,8 @@ class MarraigeAnnounce extends Model
 
 
     public $fillable = [
-        'name',
+        'girlsname',
+        'boysname',
         'startingdate',
         'endingdate',
         'timing'
@@ -42,7 +43,8 @@ class MarraigeAnnounce extends Model
      * @var array
      */
     protected $casts = [
-        'name' => 'string',
+        'girlsname' => 'string',
+        'boysname' => 'string',
         'startingdate' => 'string',
         'endingdate' => 'string',
         'timing' => 'string'
@@ -54,7 +56,9 @@ class MarraigeAnnounce extends Model
      * @var array
      */
     public static $rules = [
-        'name' => 'required'
+        'girlsname' => 'required',
+        'boysname' => 'required'
+
     ];
 
     

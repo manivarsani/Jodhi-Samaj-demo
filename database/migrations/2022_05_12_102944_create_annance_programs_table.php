@@ -17,6 +17,7 @@ class CreateAnnanceProgramsTable extends Migration
         Schema::create('annance_programs', function (Blueprint $table) {
             $table->id('id');
             $table->string('name');
+            $table->string('description');
             $table->string('timing');
             $table->string('date');
             $table->timestamps();

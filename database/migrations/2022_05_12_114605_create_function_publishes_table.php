@@ -18,6 +18,7 @@ class CreateFunctionPublishesTable extends Migration
             $table->id('id');
             $table->string('name');
             $table->string('address');
+            $table->string('description');
             $table->string('startingdate');
             $table->string('endingdate');
             $table->timestamps();

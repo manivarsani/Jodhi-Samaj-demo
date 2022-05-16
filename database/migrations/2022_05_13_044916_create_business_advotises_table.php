@@ -16,6 +16,8 @@ class CreateBusinessAdvotisesTable extends Migration
     {
         Schema::create('business_advotises', function (Blueprint $table) {
             $table->id('id');
+            $table->string('name');
+            $table->string('description');
             $table->string('image');
             $table->string('video');
             $table->timestamps();

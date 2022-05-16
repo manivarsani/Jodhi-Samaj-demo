@@ -2,20 +2,22 @@
     <table class="table" id="marraigeAnnounces-table">
         <thead>
             <tr>
-                <th>Name</th>
-        <th>Starting Date</th>
-        <th>Ending Date</th>
-        <th>Timing</th>
+                <th>Girls Name</th>
+                <th>Boys Name</th>
+                <th>Starting Date</th>
+                <th>Ending Date</th>
+                <th>Timing</th>
                 <th colspan="3">Action</th>
             </tr>
         </thead>
         <tbody>
-        @foreach($marraigeAnnounces as $marraigeAnnounce)
+            @foreach($marraigeAnnounces as $marraigeAnnounce)
             <tr>
-                <td>{{ $marraigeAnnounce->name }}</td>
-            <td>{{ $marraigeAnnounce->startingdate }}</td>
-            <td>{{ $marraigeAnnounce->endingdate }}</td>
-            <td>{{ $marraigeAnnounce->timing }}</td>
+                <td>{{ $marraigeAnnounce->girlsname }}</td>
+                <td>{{ $marraigeAnnounce->boysname }}</td>
+                <td>{{ $marraigeAnnounce->startingdate }}</td>
+                <td>{{ $marraigeAnnounce->endingdate }}</td>
+                <td>{{ $marraigeAnnounce->timing }}</td>
                 <td width="120">
                     {!! Form::open(['route' => ['marraigeAnnounces.destroy', $marraigeAnnounce->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>
@@ -30,7 +32,7 @@
                     {!! Form::close() !!}
                 </td>
             </tr>
-        @endforeach
+            @endforeach
         </tbody>
     </table>
 </div>

@@ -3,14 +3,14 @@
         <thead>
             <tr>
                 <th>Family Name</th>
-                <th>funtion</th>
+                <th>Funtion</th>
                 <th>Starting Date</th>
                 <th>Ending Date</th>
                 <th>TotalDayBook</th>
                 <th>Dish</th>
                 <th>Boull</th>
                 <th>Glass</th>
-                <th>spun</th>
+                <th>Spun</th>
                 <th colspan="3">Action</th>
             </tr>
         </thead>

@@ -4,6 +4,11 @@
     <p>{{ $annanceProgram->name }}</p>
 </div>
 
+<div class="col-sm-12">
+    {!! Form::label('description', 'Description:') !!}
+    <p>{{ $annanceProgram->description }}</p>
+</div>
+
 <!-- Date Field -->
 <div class="col-sm-12">
     {!! Form::label('date', 'Date:') !!}

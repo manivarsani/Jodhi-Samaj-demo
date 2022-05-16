@@ -28,6 +28,8 @@ class businessAdvotise extends Model
 
 
     public $fillable = [
+        'name',
+        'description',
         'image',
         'video'
     ];
@@ -38,6 +40,8 @@ class businessAdvotise extends Model
      * @var array
      */
     protected $casts = [
+        'name' => 'string',
+        'description' => 'string',
         'image' => 'string',
         'video' => 'string'
     ];
@@ -48,6 +52,8 @@ class businessAdvotise extends Model
      * @var array
      */
     public static $rules = [
+        'name' => 'required',
+        'description' => 'required',
         'image' => 'required',
         'video' => 'required|file'
     ];

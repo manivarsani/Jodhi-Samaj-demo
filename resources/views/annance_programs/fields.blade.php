@@ -5,6 +5,11 @@
 </div>
 
 <div class="form-group col-sm-6">
+    {!! Form::label('description', 'Description:') !!}
+    {!! Form::text('description', null, ['class' => 'form-control']) !!}
+</div>
+
+<div class="form-group col-sm-6">
     {!! Form::label('date', 'Date:') !!}
     {!! Form::text('date', null, ['class' => 'form-control','id'=>'date']) !!}
 </div>

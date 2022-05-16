@@ -1,8 +1,11 @@
 <li class="nav-item">
     <a href="{{ route('dashbords.index') }}" class="nav-link {{ Request::is('dashbords*') ? 'active' : '' }}">
+        <i class="nav-icon fas fa-tachometer-alt"></i>
         <p>Dashbords</p>
     </a>
 </li>
+
+
 
 <li class="nav-item {{ Request::is('members*','functionAdds*') ? 'menu-open' : ''}}">
     <a href="#" class="nav-link">

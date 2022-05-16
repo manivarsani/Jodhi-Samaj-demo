@@ -3,6 +3,7 @@
         <thead>
             <tr>
                 <th>Name</th>
+                <th>Description</th>
                 <th>Date</th>
                 <th>Timing</th>
 
@@ -13,6 +14,7 @@
             @foreach($annancePrograms as $annanceProgram)
             <tr>
                 <td>{{ $annanceProgram->name }}</td>
+                <td>{{ $annanceProgram->description }}</td>
                 <td>{{ $annanceProgram->date }}</td>
                 <td>{{ $annanceProgram->timing }}</td>
                

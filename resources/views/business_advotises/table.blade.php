@@ -2,6 +2,8 @@
     <table class="table" id="businessAdvotises-table">
         <thead>
             <tr>
+            <th>Name</th>
+            <th>Description</th>
                 <th>Image</th>
         <th>Video</th>
                 <th colspan="3">Action</th>
@@ -10,6 +12,8 @@
         <tbody>
         @foreach($businessAdvotises as $businessAdvotise)
             <tr>
+            <td>{{ $businessAdvotise->name }}</td>
+            <td>{{ $businessAdvotise->description }}</td>
                 <td>{{ $businessAdvotise->image }}</td>
             <td>{{ $businessAdvotise->video }}</td>
                 <td width="120">

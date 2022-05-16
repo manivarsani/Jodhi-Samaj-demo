@@ -10,6 +10,10 @@
     <p>{{ $functionPublish->address }}</p>
 </div>
 
+<div class="col-sm-12">
+    {!! Form::label('description', 'Description:') !!}
+    <p>{{ $functionPublish->description }}</p>
+</div>
 <!-- Startingdate Field -->
 <div class="col-sm-12">
     {!! Form::label('startingdate', 'Starting Date:') !!}

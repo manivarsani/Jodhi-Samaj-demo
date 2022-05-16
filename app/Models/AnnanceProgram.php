@@ -30,6 +30,7 @@ class AnnanceProgram extends Model
 
     public $fillable = [
         'name',
+        'description',
         'timing',
         'date'
     ];
@@ -41,6 +42,7 @@ class AnnanceProgram extends Model
      */
     protected $casts = [
         'name' => 'string',
+        'description' => 'string',
         'timing' => 'string',
         'date' => 'string'
     ];
